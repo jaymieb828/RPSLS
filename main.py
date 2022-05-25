@@ -11,3 +11,23 @@
 # (10 points): As a player, I want the game of RPSLS to be at minimum a “best of three” to decide a winner.
 
 # (10 points): As a player, I want the option of a single player (human vs AI) or a multiplayer (human vs human) game.
+
+
+
+
+# from human import Human
+# from ai import Ai
+from player import Player
+
+player_x = Player()
+select_gesture = Player.select_gesture
+
+
+
+# player_x = Human()
+
+
+
+# print(player_x)
+print (select_gesture)
+# print(f"Hello, {player_x.name}! {player_x.gestures}")
