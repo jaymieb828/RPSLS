@@ -21,12 +21,3 @@ class Player:
                 print("Please try again. Enter 0 for Rock, 1 for Scissors, 2 for Paper, 3 for Lizard, 4 for Spock: ")
             else:
                 break
-
-
-
-        
-
-    
-
-
-        
