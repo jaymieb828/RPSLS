@@ -7,8 +7,8 @@ class AI (Player):
         super().__init__()
 
     def select_gesture(self):
-        self.ai_gesture_select = random.choice(["rock", "paper", "scissors", "lizard", "spock"])
-        print (f"The computer chooses {self.ai_gesture_select%[0]}")
+        self.gesture = random.choice([0,1,2,3,4])
+        print (f"The computer chooses {self.gestures[self.gesture]}")
 
 
 
