@@ -17,5 +17,5 @@ from game import Game
 
 gameplay = Game()
 
-gameplay.run_game()
+gameplay.run_game() 
 
